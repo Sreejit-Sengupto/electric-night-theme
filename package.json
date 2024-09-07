@@ -1,0 +1,46 @@
+{
+  "name": "electric-night",
+  "displayName": "electric-night",
+  "description": "Firefox electric-night inspired theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "Sree Sen",
+  "icon": "images/logo.jpeg",
+  "author": {
+    "name": "Sreejit Sengupta",
+    "email": "sreesen2003@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sreejit-Sengupto/electric-night-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/Sreejit-Sengupto/electric-night-theme/issues",
+    "email": "sreesen2003@gmail.com"
+  },
+  "homepage": "https://github.com/Sreejit-Sengupto/electric-night-theme/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#00ffff",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Themes",
+    "Dark Theme",
+    "color-theme",
+    "electric-night"
+  ],
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "electric-night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electric-night-color-theme.json"
+      }
+    ]
+  }
+}
